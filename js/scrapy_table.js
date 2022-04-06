@@ -3,7 +3,7 @@ document.querySelector('#boton').addEventListener('click', traerDatos());
 function traerDatos(){
     const xhttp = new XMLHttpRequest();
 
-    xhttp.open('get', 'table_position.json', true);
+    xhttp.open('get', "https://app.zyte.com/api/v2/datasets/tjFcwQcD9Zk/download?format=json", true);
     xhttp.send();
     xhttp.onreadystatechange = function(){
         if(this.readyState == 4 && this.status ==200){
