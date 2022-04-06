@@ -1,0 +1,29 @@
+
+
+.header_pos{
+    text-align: center;
+    background-color: #6d6a6a;
+    color: #fff;
+    font-weight: bold;
+}
+
+thead tr{
+    background-color: #9e9e9e !important;    
+}
+table tr:nth-child(even) {
+    background-color: #f5f5f5  ;      
+}
+table tr:nth-child(odd) {
+    background-color: #e0e0e0  ;    
+}
+.table {
+    width: 400px;
+    font-weight: bold;
+    text-align: center;
+}
+table td:nth-child(2) {
+    text-align: left;
+}
+table td:nth-child(3) {
+    background-color: rgba(97, 136, 76, 0.413);
+}
