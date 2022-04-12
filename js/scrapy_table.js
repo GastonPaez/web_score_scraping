@@ -3,7 +3,7 @@ document.querySelector('#boton').addEventListener('click', traerDatos());
 function traerDatos(){
     const xhttp = new XMLHttpRequest();
 
-    xhttp.open('get', "https://app.zyte.com/api/v2/datasets/tjFcwQcD9Zk/download?format=json", true);
+    xhttp.open('get', "https://storage.scrapinghub.com/items/589854/1/2?apikey=6256bc5b943f4aeba4933c51ae8103d0&format=json&saveas=items_table_position_2.json", true);
     xhttp.send();
     xhttp.onreadystatechange = function(){
         if(this.readyState == 4 && this.status ==200){
