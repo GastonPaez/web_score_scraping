@@ -1,0 +1,587 @@
+{
+  "actualizado": "2026-09-18T21:51:13+00:00",
+  "fuente": "https://www.promiedos.com.ar/league/liga-profesional/hc",
+  "torneo": "Liga Profesional Argentina",
+  "fechas": [
+    {
+      "nombre": "Fecha 10",
+      "partidos": [
+        {
+          "id": "egddcji",
+          "inicio": "2026-09-18T18:00:00-03:00",
+          "estado": "en_juego",
+          "estado_texto": "Entretiempo",
+          "minuto": "45'",
+          "local": {
+            "nombre": "Central Córdoba SdE",
+            "corto": "Central Córdoba",
+            "goles": 0,
+            "color": "#000000"
+          },
+          "visitante": {
+            "nombre": "Defensa y Justicia",
+            "corto": "Defensa",
+            "goles": 1,
+            "color": "#FFFF00"
+          }
+        },
+        {
+          "id": "egddcja",
+          "inicio": "2026-09-18T21:15:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Racing Club",
+            "corto": "Racing",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Sarmiento Junín",
+            "corto": "Sarmiento",
+            "goles": null,
+            "color": "#4AA575"
+          }
+        },
+        {
+          "id": "egddcjd",
+          "inicio": "2026-09-19T14:30:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Gimnasia La Plata",
+            "corto": "Gimnasia",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Banfield",
+            "corto": "Banfield",
+            "goles": null,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "egddcjj",
+          "inicio": "2026-09-19T14:30:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Gimnasia de Mendoza",
+            "corto": "Gimnasia (M)",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Deportivo Riestra",
+            "corto": "Riestra",
+            "goles": null,
+            "color": "#28272C"
+          }
+        },
+        {
+          "id": "egddcjg",
+          "inicio": "2026-09-19T16:45:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Unión de Santa Fe",
+            "corto": "Unión",
+            "goles": null,
+            "color": "#E93F2D"
+          },
+          "visitante": {
+            "nombre": "Independiente",
+            "corto": "Independiente",
+            "goles": null,
+            "color": "#FF0000"
+          }
+        },
+        {
+          "id": "egddcij",
+          "inicio": "2026-09-19T19:00:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "River Plate",
+            "corto": "River",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Huracán",
+            "corto": "Huracán",
+            "goles": null,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "egddcjf",
+          "inicio": "2026-09-19T21:15:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Instituto",
+            "corto": "Instituto",
+            "goles": null,
+            "color": "#FF0000"
+          },
+          "visitante": {
+            "nombre": "Talleres de Córdoba",
+            "corto": "Talleres",
+            "goles": null,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "egddcjh",
+          "inicio": "2026-09-20T14:45:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "San Lorenzo",
+            "corto": "San Lorenzo",
+            "goles": null,
+            "color": "#293592"
+          },
+          "visitante": {
+            "nombre": "Boca Juniors",
+            "corto": "Boca Jrs.",
+            "goles": null,
+            "color": "#2D2E58"
+          }
+        },
+        {
+          "id": "egddcje",
+          "inicio": "2026-09-20T17:00:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Rosario Central",
+            "corto": "Central",
+            "goles": null,
+            "color": "#004080"
+          },
+          "visitante": {
+            "nombre": "Argentinos Juniors",
+            "corto": "Argentinos",
+            "goles": null,
+            "color": "#DD2D2F"
+          }
+        },
+        {
+          "id": "egdddab",
+          "inicio": "2026-09-20T17:00:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Platense",
+            "corto": "Platense",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Newell's Old Boys",
+            "corto": "Newell's",
+            "goles": null,
+            "color": "#FD0808"
+          }
+        },
+        {
+          "id": "egddcii",
+          "inicio": "2026-09-20T19:15:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Belgrano",
+            "corto": "Belgrano",
+            "goles": null,
+            "color": "#358FC8"
+          },
+          "visitante": {
+            "nombre": "Estudiantes RC",
+            "corto": "Estudiantes RC",
+            "goles": null,
+            "color": "#77B8F2"
+          }
+        },
+        {
+          "id": "egdddac",
+          "inicio": "2026-09-20T21:30:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Vélez Sarsfield",
+            "corto": "Vélez",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Tigre",
+            "corto": "Tigre",
+            "goles": null,
+            "color": "#263142"
+          }
+        },
+        {
+          "id": "egddcjb",
+          "inicio": "2026-09-21T14:30:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Aldosivi",
+            "corto": "Aldosivi",
+            "goles": null,
+            "color": "#133632"
+          },
+          "visitante": {
+            "nombre": "Atlético Tucumán",
+            "corto": "Atl. Tucumán",
+            "goles": null,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "egddcjc",
+          "inicio": "2026-09-21T19:00:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Barracas Central",
+            "corto": "Barracas",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Independiente Rivadavia",
+            "corto": "Independiente Riv.",
+            "goles": null,
+            "color": "#14163F"
+          }
+        },
+        {
+          "id": "egdddaa",
+          "inicio": "2026-09-21T21:15:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Lanús",
+            "corto": "Lanús",
+            "goles": null,
+            "color": "#753E4A"
+          },
+          "visitante": {
+            "nombre": "Estudiantes de La Plata",
+            "corto": "Estudiantes",
+            "goles": null,
+            "color": "#FAFAFA"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Fecha 11",
+      "partidos": [
+        {
+          "id": "egddcig",
+          "inicio": "2026-10-02T19:15:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Independiente",
+            "corto": "Independiente",
+            "goles": null,
+            "color": "#FF0000"
+          },
+          "visitante": {
+            "nombre": "Instituto",
+            "corto": "Instituto",
+            "goles": null,
+            "color": "#FF0000"
+          }
+        },
+        {
+          "id": "egddchf",
+          "inicio": "2026-10-02T21:30:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Independiente Rivadavia",
+            "corto": "Independiente Riv.",
+            "goles": null,
+            "color": "#14163F"
+          },
+          "visitante": {
+            "nombre": "Gimnasia La Plata",
+            "corto": "Gimnasia",
+            "goles": null,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "egddcie",
+          "inicio": "2026-10-03T14:45:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Defensa y Justicia",
+            "corto": "Defensa",
+            "goles": null,
+            "color": "#FFFF00"
+          },
+          "visitante": {
+            "nombre": "San Lorenzo",
+            "corto": "San Lorenzo",
+            "goles": null,
+            "color": "#293592"
+          }
+        },
+        {
+          "id": "egddchg",
+          "inicio": "2026-10-03T17:00:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Atlético Tucumán",
+            "corto": "Atl. Tucumán",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Barracas Central",
+            "corto": "Barracas",
+            "goles": null,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "egddcib",
+          "inicio": "2026-10-03T17:00:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Newell's Old Boys",
+            "corto": "Newell's",
+            "goles": null,
+            "color": "#FD0808"
+          },
+          "visitante": {
+            "nombre": "Lanús",
+            "corto": "Lanús",
+            "goles": null,
+            "color": "#753E4A"
+          }
+        },
+        {
+          "id": "egddchd",
+          "inicio": "2026-10-03T19:15:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Argentinos Juniors",
+            "corto": "Argentinos",
+            "goles": null,
+            "color": "#DD2D2F"
+          },
+          "visitante": {
+            "nombre": "Tigre",
+            "corto": "Tigre",
+            "goles": null,
+            "color": "#263142"
+          }
+        },
+        {
+          "id": "egddchh",
+          "inicio": "2026-10-03T21:30:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Huracán",
+            "corto": "Huracán",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Aldosivi",
+            "corto": "Aldosivi",
+            "goles": null,
+            "color": "#133632"
+          }
+        },
+        {
+          "id": "egddcih",
+          "inicio": "2026-10-04T17:00:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Talleres de Córdoba",
+            "corto": "Talleres",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Belgrano",
+            "corto": "Belgrano",
+            "goles": null,
+            "color": "#358FC8"
+          }
+        },
+        {
+          "id": "egddcif",
+          "inicio": "2026-10-04T19:15:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Boca Juniors",
+            "corto": "Boca Jrs.",
+            "goles": null,
+            "color": "#2D2E58"
+          },
+          "visitante": {
+            "nombre": "Unión de Santa Fe",
+            "corto": "Unión",
+            "goles": null,
+            "color": "#E93F2D"
+          }
+        },
+        {
+          "id": "egddchj",
+          "inicio": "2026-10-04T21:30:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Estudiantes RC",
+            "corto": "Estudiantes RC",
+            "goles": null,
+            "color": "#77B8F2"
+          },
+          "visitante": {
+            "nombre": "Racing Club",
+            "corto": "Racing",
+            "goles": null,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "egddcid",
+          "inicio": "2026-10-05T16:45:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Deportivo Riestra",
+            "corto": "Riestra",
+            "goles": null,
+            "color": "#28272C"
+          },
+          "visitante": {
+            "nombre": "Central Córdoba SdE",
+            "corto": "Central Córdoba",
+            "goles": null,
+            "color": "#000000"
+          }
+        },
+        {
+          "id": "egddcia",
+          "inicio": "2026-10-05T19:00:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Vélez Sarsfield",
+            "corto": "Vélez",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Platense",
+            "corto": "Platense",
+            "goles": null,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "egddcic",
+          "inicio": "2026-10-05T19:00:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Estudiantes de La Plata",
+            "corto": "Estudiantes",
+            "goles": null,
+            "color": "#FAFAFA"
+          },
+          "visitante": {
+            "nombre": "Gimnasia de Mendoza",
+            "corto": "Gimnasia (M)",
+            "goles": null,
+            "color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "egddche",
+          "inicio": "2026-10-05T21:15:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Banfield",
+            "corto": "Banfield",
+            "goles": null,
+            "color": "#FFFFFF"
+          },
+          "visitante": {
+            "nombre": "Rosario Central",
+            "corto": "Central",
+            "goles": null,
+            "color": "#004080"
+          }
+        },
+        {
+          "id": "egddchi",
+          "inicio": "2026-10-07T19:30:00-03:00",
+          "estado": "programado",
+          "estado_texto": "Prog.",
+          "minuto": null,
+          "local": {
+            "nombre": "Sarmiento Junín",
+            "corto": "Sarmiento",
+            "goles": null,
+            "color": "#4AA575"
+          },
+          "visitante": {
+            "nombre": "River Plate",
+            "corto": "River",
+            "goles": null,
+            "color": "#FFFFFF"
+          }
+        }
+      ]
+    }
+  ]
+}

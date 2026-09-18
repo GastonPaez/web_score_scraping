@@ -1,58 +1,126 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0A0E13">
+    <meta name="description" content="Tablas de posiciones y promedios del futbol argentino, actualizadas dos veces por dia.">
     <title>Futbol Argentino - Tabla de Posiciones</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              fondo:   '#0A0E13',  // fondo de la pagina
+              panel:   '#111820',  // superficie de las tarjetas
+              panel2:  '#161F2A',  // filas alternas / hover
+              borde:   '#1F2A37',
+              tenue:   '#7C8B9C',  // texto secundario
+              acento:  '#34D399',  // verde de marca (venia del gradiente viejo)
+              acento2: '#11998E',
+              zona:    '#38BDF8',  // clasificacion
+              peligro: '#F43F5E',
+            },
+            fontFamily: {
+              display: ['"Barlow Condensed"', 'Impact', 'sans-serif'],
+              sans:    ['Inter', 'system-ui', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
 
-    <header>
-        <nav>
-            <div class="nav-wrapper" id="navbar">
-              <a href="#" class="brand-logo center">Futbol Argentino</a>
-              <ul id="nav-mobile" class="left">
-                <li><a href="#" data-vista="posiciones">Posiciones</a></li>
-                <li><a href="#" data-vista="promedios">Promedios</a></li>
-              </ul>
-            </div>
-        </nav>
+<body class="bg-fondo font-sans text-slate-100 antialiased min-h-screen flex flex-col">
+
+    <!-- ── Barra superior ─────────────────────────────────────────────── -->
+    <header class="sticky top-0 z-30 border-b border-borde bg-fondo/85 backdrop-blur-md">
+        <div class="mx-auto flex max-w-6xl items-center gap-3 px-4 py-3 sm:gap-6">
+            <a href="#" class="flex shrink-0 items-center gap-2.5">
+                <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-acento to-acento2"></span>
+                <span class="font-display text-2xl font-bold uppercase leading-none tracking-wide sm:text-[1.7rem]">
+                    Futbol <span class="text-acento">Argentino</span>
+                </span>
+            </a>
+
+            <!-- Control segmentado: mas claro que links sueltos para 2 vistas -->
+            <nav class="ml-auto flex rounded-lg border border-borde bg-panel p-1" aria-label="Tablas">
+                <button type="button" data-vista="posiciones"
+                        class="nav-tab rounded-md px-3 py-1.5 text-sm font-semibold transition sm:px-4">
+                    Posiciones
+                </button>
+                <button type="button" data-vista="promedios"
+                        class="nav-tab rounded-md px-3 py-1.5 text-sm font-semibold transition sm:px-4">
+                    Promedios
+                </button>
+                <button type="button" data-vista="fixture"
+                        class="nav-tab rounded-md px-3 py-1.5 text-sm font-semibold transition sm:px-4">
+                    Fixture
+                </button>
+            </nav>
+        </div>
     </header>
 
-    <main class="body-container">
-        <!-- Las tablas las genera js/tablas.js a partir de data/*.json -->
-        <div id="tablas"><div class="mensaje">Cargando...</div></div>
-        <p id="actualizado" class="actualizado"></p>
+    <!-- ── Encabezado del torneo ──────────────────────────────────────── -->
+    <section class="relative overflow-hidden border-b border-borde">
+        <img src="./src/wallp1.jpg" alt="" aria-hidden="true"
+             class="absolute inset-0 h-full w-full scale-110 object-cover opacity-20 blur-sm">
+        <div class="absolute inset-0 bg-gradient-to-b from-fondo/70 via-fondo/85 to-fondo"></div>
+
+        <div class="relative mx-auto max-w-6xl px-4 py-7 sm:py-10">
+            <p class="font-display text-sm uppercase tracking-[0.2em] text-acento" id="fase">&nbsp;</p>
+            <h1 class="mt-1 font-display text-4xl font-bold uppercase leading-none sm:text-5xl" id="titulo">
+                Tabla de Posiciones
+            </h1>
+            <p class="mt-3 flex items-center gap-2 text-sm text-tenue">
+                <span class="relative flex h-2 w-2" aria-hidden="true">
+                    <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-acento opacity-60 motion-reduce:animate-none"></span>
+                    <span class="relative inline-flex h-2 w-2 rounded-full bg-acento"></span>
+                </span>
+                <span id="actualizado">Cargando datos...</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- ── Tablas ─────────────────────────────────────────────────────── -->
+    <main class="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:py-8">
+        <div id="tablas" class="grid gap-6 lg:grid-cols-2" aria-live="polite" aria-busy="true"></div>
+        <div id="leyenda" class="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-tenue"></div>
     </main>
 
-    <footer class="page-footer" id="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Tablas del futbol argentino</h5>
-              <p class="grey-text text-lighten-4">
-                Sitio estatico alojado en GitHub Pages. Un scraper en Python corre dos veces por dia
-                en GitHub Actions, toma los datos y los commitea como JSON en el
-                repositorio. El navegador solo lee esos archivos: no hay API keys ni servicios
-                externos en tiempo de ejecucion.</p>
+    <!-- ── Pie ────────────────────────────────────────────────────────── -->
+    <footer class="border-t border-borde bg-panel/40">
+        <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 sm:grid-cols-3">
+            <div class="sm:col-span-2">
+                <h2 class="font-display text-xl font-semibold uppercase tracking-wide">Tablas del futbol argentino</h2>
+                <p class="mt-2 max-w-prose text-sm leading-relaxed text-tenue">
+                    Sitio estatico alojado en GitHub Pages. Un scraper en Python corre dos veces por dia
+                    en GitHub Actions, toma los datos y los commitea como JSON en el repositorio.
+                    El navegador solo lee esos archivos: no hay API keys ni servicios externos
+                    en tiempo de ejecucion.
+                </p>
             </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Tablas</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="#" data-vista="posiciones">Posiciones</a></li>
-                <li><a class="grey-text text-lighten-3" href="#" data-vista="promedios">Promedios</a></li>
-              </ul>
+            <div>
+                <h2 class="font-display text-xl font-semibold uppercase tracking-wide">Tablas</h2>
+                <ul class="mt-2 space-y-1.5 text-sm">
+                    <li><button type="button" data-vista="posiciones" class="text-tenue transition hover:text-acento">Posiciones</button></li>
+                    <li><button type="button" data-vista="promedios" class="text-tenue transition hover:text-acento">Promedios</button></li>
+                    <li><button type="button" data-vista="fixture" class="text-tenue transition hover:text-acento">Fixture</button></li>
+                </ul>
             </div>
-          </div>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
-          &copy; 2026 Copyright Gaston Paez
-          <a class="grey-text text-lighten-4 right" href="https://github.com/GastonPaez">https://github.com/GastonPaez</a>
-          </div>
+        <div class="border-t border-borde">
+            <div class="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-4 text-xs text-tenue sm:flex-row sm:items-center sm:justify-between">
+                <span>&copy; 2026 Gaston Paez</span>
+                <a href="https://github.com/GastonPaez" class="transition hover:text-acento">github.com/GastonPaez</a>
+            </div>
         </div>
     </footer>
 

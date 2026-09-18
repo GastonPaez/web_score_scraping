@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-18T16:04:57+00:00",
+  "actualizado": "2026-09-18T21:51:13+00:00",
   "fuente": "https://www.promiedos.com.ar/league/liga-profesional/hc",
   "torneo": "Liga Profesional Argentina",
   "columnas": [
@@ -169,6 +169,18 @@
     },
     {
       "pos": 14,
+      "equipo": "Defensa y Justicia",
+      "valores": [
+        "1.364",
+        "135",
+        "99",
+        "58",
+        "38",
+        "39"
+      ]
+    },
+    {
+      "pos": 15,
       "equipo": "Unión de Santa Fe",
       "valores": [
         "1.357",
@@ -177,18 +189,6 @@
         "60",
         "39",
         "34"
-      ]
-    },
-    {
-      "pos": 15,
-      "equipo": "Defensa y Justicia",
-      "valores": [
-        "1.347",
-        "132",
-        "98",
-        "58",
-        "38",
-        "36"
       ]
     },
     {
@@ -315,9 +315,9 @@
       "pos": 26,
       "equipo": "Central Córdoba SdE",
       "valores": [
-        "1.092",
+        "1.081",
         "107",
-        "98",
+        "99",
         "42",
         "42",
         "23"
