@@ -4,88 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Scrapy - Tabla de Posiciones</title>
+    <title>Futbol Argentino - Tabla de Posiciones</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
     <header>
-        
         <nav>
-            <div class="nav-wrapper teal accent-3" id="navbar">
+            <div class="nav-wrapper" id="navbar">
               <a href="#" class="brand-logo center">Futbol Argentino</a>
-              <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="">Tabla de Posiciones</a></li>
-                <li><a href="">Tabla de Promedios</a></li>
-                <li><a href="">Fixture</a></li>
+              <ul id="nav-mobile" class="left">
+                <li><a href="#" data-vista="posiciones">Posiciones</a></li>
+                <li><a href="#" data-vista="promedios">Promedios</a></li>
               </ul>
             </div>
-          </nav>
-        
+        </nav>
     </header>
 
+    <main class="body-container">
+        <!-- Las tablas las genera js/tablas.js a partir de data/*.json -->
+        <div id="tablas"><div class="mensaje">Cargando...</div></div>
+        <p id="actualizado" class="actualizado"></p>
+    </main>
 
-
-    <div class="body-container">
- 
-        <div class="container-table1">
-            <div class="table__title">Grupo A</div>
-            <div class="table__header">Pos</div>
-            <div class="table__header">Equipo</div>
-            <div class="table__header">Pts</div>
-            <div class="table__header">PJ</div>
-            <div class="table__header">PG</div>
-            <div class="table__header">PE</div>
-            <div class="table__header">PP</div>
-            <div class="table__header">GF</div>
-            <div class="table__header">GC</div>
-            <div class="table__header">DIF</div> 
-        </div>
-
-        <div class="container-table2">
-            <div class="table__title">Grupo B</div>
-            <div class="table__header">Pos</div>
-            <div class="table__header">Equipo</div>
-            <div class="table__header">Pts</div>
-            <div class="table__header">PJ</div>
-            <div class="table__header">PG</div>
-            <div class="table__header">PE</div>
-            <div class="table__header">PP</div>
-            <div class="table__header">GF</div>
-            <div class="table__header">GC</div>
-            <div class="table__header">DIF</div>       
-        </div>
-    </div>
-    <button class="btn" id="boton">Json</button>
-
-    
-    <footer class="page-footer teal accent-3" id="footer">
+    <footer class="page-footer" id="footer">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
-              <h5 class="white-text">Pagina Web Resultados por Scrapy</h5>
+              <h5 class="white-text">Tablas del futbol argentino</h5>
               <p class="grey-text text-lighten-4">
-                Esta pagina web se desarrollo con python utilizando la libreria Scrapy para scrapear los datos de las tablas de 
-                posiciones del futbol argentino. Utiliza Zyte Scrapy Cloud Deploy para alojar el spider que se envia en Json. El frontend basico se realizo con materialize.</p>
+                Sitio estatico alojado en GitHub Pages. Un scraper en Python corre dos veces por dia
+                en GitHub Actions, toma los datos y los commitea como JSON en el
+                repositorio. El navegador solo lee esos archivos: no hay API keys ni servicios
+                externos en tiempo de ejecucion.</p>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Tablas</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="">Posiciones</a></li>
-                <li><a class="grey-text text-lighten-3" href="">Promedios</a></li>
-                <li><a class="grey-text text-lighten-3" href="">Fixture</a></li>                
+                <li><a class="grey-text text-lighten-3" href="#" data-vista="posiciones">Posiciones</a></li>
+                <li><a class="grey-text text-lighten-3" href="#" data-vista="promedios">Promedios</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="footer-copyright">
           <div class="container">
-          © 2022 Copyright Gaston Paez
-          <a class="grey-text text-lighten-4 right" href="#!">https://github.com/GastonPaez</a>
+          &copy; 2026 Copyright Gaston Paez
+          <a class="grey-text text-lighten-4 right" href="https://github.com/GastonPaez">https://github.com/GastonPaez</a>
           </div>
         </div>
-      </footer>
-      <script src="./js/scrapy_table.js"></script>
+    </footer>
+
+    <script src="./js/tablas.js"></script>
 </body>
 </html>

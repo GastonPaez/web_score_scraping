@@ -1,0 +1,375 @@
+{
+  "actualizado": "2026-09-18T16:04:57+00:00",
+  "fuente": "https://www.promiedos.com.ar/league/liga-profesional/hc",
+  "torneo": "Liga Profesional Argentina",
+  "columnas": [
+    "Prom",
+    "Pts",
+    "PJ",
+    "24",
+    "25",
+    "26"
+  ],
+  "filas": [
+    {
+      "pos": 1,
+      "equipo": "Boca Juniors",
+      "valores": [
+        "1.765",
+        "173",
+        "98",
+        "67",
+        "62",
+        "44"
+      ]
+    },
+    {
+      "pos": 2,
+      "equipo": "River Plate",
+      "valores": [
+        "1.684",
+        "165",
+        "98",
+        "70",
+        "53",
+        "42"
+      ]
+    },
+    {
+      "pos": 3,
+      "equipo": "Vélez Sarsfield",
+      "valores": [
+        "1.643",
+        "161",
+        "98",
+        "76",
+        "40",
+        "45"
+      ]
+    },
+    {
+      "pos": 4,
+      "equipo": "Argentinos Juniors",
+      "valores": [
+        "1.633",
+        "160",
+        "98",
+        "56",
+        "57",
+        "47"
+      ]
+    },
+    {
+      "pos": 5,
+      "equipo": "Rosario Central",
+      "valores": [
+        "1.592",
+        "156",
+        "98",
+        "47",
+        "66",
+        "43"
+      ]
+    },
+    {
+      "pos": 6,
+      "equipo": "Racing Club",
+      "valores": [
+        "1.520",
+        "149",
+        "98",
+        "70",
+        "53",
+        "26"
+      ]
+    },
+    {
+      "pos": 7,
+      "equipo": "Independiente",
+      "valores": [
+        "1.510",
+        "148",
+        "98",
+        "63",
+        "47",
+        "38"
+      ]
+    },
+    {
+      "pos": 8,
+      "equipo": "Estudiantes de La Plata",
+      "valores": [
+        "1.490",
+        "146",
+        "98",
+        "63",
+        "42",
+        "41"
+      ]
+    },
+    {
+      "pos": 9,
+      "equipo": "Lanús",
+      "valores": [
+        "1.490",
+        "146",
+        "98",
+        "59",
+        "50",
+        "37"
+      ]
+    },
+    {
+      "pos": 10,
+      "equipo": "Huracán",
+      "valores": [
+        "1.469",
+        "144",
+        "98",
+        "62",
+        "47",
+        "35"
+      ]
+    },
+    {
+      "pos": 11,
+      "equipo": "Talleres de Córdoba",
+      "valores": [
+        "1.429",
+        "140",
+        "98",
+        "72",
+        "34",
+        "34"
+      ]
+    },
+    {
+      "pos": 12,
+      "equipo": "Gimnasia de Mendoza",
+      "valores": [
+        "1.400",
+        "35",
+        "25",
+        "0",
+        "0",
+        "35"
+      ]
+    },
+    {
+      "pos": 13,
+      "equipo": "Independiente Rivadavia",
+      "valores": [
+        "1.398",
+        "137",
+        "98",
+        "46",
+        "43",
+        "48"
+      ]
+    },
+    {
+      "pos": 14,
+      "equipo": "Unión de Santa Fe",
+      "valores": [
+        "1.357",
+        "133",
+        "98",
+        "60",
+        "39",
+        "34"
+      ]
+    },
+    {
+      "pos": 15,
+      "equipo": "Defensa y Justicia",
+      "valores": [
+        "1.347",
+        "132",
+        "98",
+        "58",
+        "38",
+        "36"
+      ]
+    },
+    {
+      "pos": 16,
+      "equipo": "Barracas Central",
+      "valores": [
+        "1.337",
+        "131",
+        "98",
+        "49",
+        "49",
+        "33"
+      ]
+    },
+    {
+      "pos": 17,
+      "equipo": "San Lorenzo",
+      "valores": [
+        "1.316",
+        "129",
+        "98",
+        "45",
+        "51",
+        "33"
+      ]
+    },
+    {
+      "pos": 18,
+      "equipo": "Gimnasia La Plata",
+      "valores": [
+        "1.306",
+        "128",
+        "98",
+        "48",
+        "38",
+        "42"
+      ]
+    },
+    {
+      "pos": 19,
+      "equipo": "Instituto",
+      "valores": [
+        "1.296",
+        "127",
+        "98",
+        "53",
+        "34",
+        "40"
+      ]
+    },
+    {
+      "pos": 20,
+      "equipo": "Belgrano",
+      "valores": [
+        "1.276",
+        "125",
+        "98",
+        "49",
+        "37",
+        "39"
+      ]
+    },
+    {
+      "pos": 21,
+      "equipo": "Tigre",
+      "valores": [
+        "1.224",
+        "120",
+        "98",
+        "39",
+        "49",
+        "32"
+      ]
+    },
+    {
+      "pos": 22,
+      "equipo": "Deportivo Riestra",
+      "valores": [
+        "1.224",
+        "120",
+        "98",
+        "48",
+        "52",
+        "20"
+      ]
+    },
+    {
+      "pos": 23,
+      "equipo": "Platense",
+      "valores": [
+        "1.194",
+        "117",
+        "98",
+        "57",
+        "35",
+        "25"
+      ]
+    },
+    {
+      "pos": 24,
+      "equipo": "Atlético Tucumán",
+      "valores": [
+        "1.133",
+        "111",
+        "98",
+        "50",
+        "34",
+        "27"
+      ]
+    },
+    {
+      "pos": 25,
+      "equipo": "Newell's Old Boys",
+      "valores": [
+        "1.122",
+        "110",
+        "98",
+        "49",
+        "33",
+        "28"
+      ]
+    },
+    {
+      "pos": 26,
+      "equipo": "Central Córdoba SdE",
+      "valores": [
+        "1.092",
+        "107",
+        "98",
+        "42",
+        "42",
+        "23"
+      ]
+    },
+    {
+      "pos": 27,
+      "equipo": "Sarmiento Junín",
+      "valores": [
+        "1.071",
+        "105",
+        "98",
+        "35",
+        "35",
+        "35"
+      ]
+    },
+    {
+      "pos": 28,
+      "equipo": "Banfield",
+      "valores": [
+        "1.041",
+        "102",
+        "98",
+        "41",
+        "35",
+        "26"
+      ]
+    },
+    {
+      "pos": 29,
+      "equipo": "Aldosivi",
+      "valores": [
+        "0.807",
+        "46",
+        "57",
+        "0",
+        "33",
+        "13"
+      ]
+    },
+    {
+      "pos": 30,
+      "equipo": "Estudiantes RC",
+      "valores": [
+        "0.440",
+        "11",
+        "25",
+        "0",
+        "0",
+        "11"
+      ]
+    }
+  ]
+}
